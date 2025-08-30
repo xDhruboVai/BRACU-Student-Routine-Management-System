@@ -781,7 +781,7 @@ def profile_page():
             ui.button('Logout', on_click=lambda: (clear_user(), ui.navigate.to('/auth'))).props('color=negative outline')
 
 
-# --- Index Page & Application Startup
+# Index Page & Application Startup
 
 @ui.page('/')
 def index():
